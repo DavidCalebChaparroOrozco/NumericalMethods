@@ -11,4 +11,3 @@ a = int(input('Enter a number: '))
 print('a is: '+ sign_of_a(a))
 
 print("-".center(50,'-'))
-
