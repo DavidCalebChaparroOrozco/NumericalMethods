@@ -15,4 +15,5 @@ def divide_or_square(number):
     else:
         return number % 5
 
-print('divide_or_square is: '+ str(divide_or_square(0)))
+numA = int(input('Enter a number: '))
+print('divide_or_square is: '+ str(divide_or_square(numA)))
