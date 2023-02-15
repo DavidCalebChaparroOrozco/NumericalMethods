@@ -22,3 +22,7 @@ import nombre_modulo
 import nombre_modulo as alias
 `
 * Se accede al modulo a través de un alias y se accede a func con alias.func()
+
+# 
+Algunos modulos no hacen parte del nucleo (core) de Python y deben ser instalados para poderlos
+utilizar. El proceso de instalación requiere que en la terminal se ingrese el comando.
