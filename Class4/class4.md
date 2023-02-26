@@ -51,8 +51,8 @@ _e_: Exponente.
 - Ejercicio 2: Escribir los numeros 156.78 y 1/34 en su representación punto flotante.
 
 ## Para tener en cuenta.
-Como consecuencia de la normalización, $$m < 1$$ (limite superior) y $$m >= 0.1$$ (limite inferior). Es decir:
-$$ 1/b <= m < 1$$
+Como consecuencia de la normalización, $m < 1$ (limite superior) y $m >= 0.1$ (limite inferior). Es decir:
+$$\frac{1}{b} \leq m < 1$$
 
 ### Ejemplo 2: Conjunto hipotetico de numeros con punto flotante
 Determine el menor y el mayor numeros positivos que puede almacenar una maquina que utiliza representación de punto flotante en cadenas de 7 digitos binarios. El primer bit se emplea para el signo del numero, las sgts tres para el signo y la magnitud del exponente, y los ultimos tres para la magnitud de la mantisa.
