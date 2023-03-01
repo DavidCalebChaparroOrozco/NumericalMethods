@@ -35,7 +35,7 @@ $$L (\alpha u_1 + \beta u_2) = \alpha L (u_1) + \beta L (u_2)$$
 donde _a_ y _B_ son escalares (coeficientes) y $u_1$ y $u_2$ son funciones. Una ED para cual _F_ es
 igual a cero se denomina _homogenea_.
 
-$ m \frac{d^{2}u}{dt^{2}} + c \frac{du}{dt} + ku = 0$
+$m \frac{d^{2}u}{dt^{2}} + c \frac{du}{dt} + ku = 0$
 ---
 $m \frac{d^{2}}{dt^{2}} + c \frac{d}{dt} + k = 0$
 
