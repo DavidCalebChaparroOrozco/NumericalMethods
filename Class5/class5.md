@@ -76,7 +76,7 @@ donde $a = 1, b = 3000.001, c= 3$
 
 - Halle las dos soluciones $(p_1, p_2)$ de la ecuación cuadrática utilizando la expresión:
 
-    $$ \frac {-2c}{b \pm \sqrt {b^2 - 4ac} }$$
+    $$\frac {-2c}{b \pm \sqrt {b^2 - 4ac} }$$
 
 - Compare sus resultados con las soluciones correctas (Utilice el comando `solveset` disponible en 
 el modulo `sympy`)
@@ -97,14 +97,14 @@ donde el residuo, $R_n$, puede definirse como:
 
 $$R_n = \int_{a}^{x} \frac{(x-t)^{n}}{n!} f^{n+1} (t) dt$$
 $$ó$$
-$$ R_n = \frac{f^{(n+1)} (\xi)}{(n+1)!} (x-a)^{n+1} $$
+$$R_n = \frac{f^{(n+1)} (\xi)}{(n+1)!} (x-a)^{n+1} $$
 
 Si se omite el residuo, el lado derecho de la igualdad es el polinomio de Taylor de grado $n$ para
 $f(x)$.
 
-$$ f(x) = \sum_{k=0}^{n} \frac{f^{k}(a)}{k!} (x - a)^{k} + R_n $$
+$$f(x) = \sum_{k=0}^{n} \frac{f^{k}(a)}{k!} (x - a)^{k} + R_n$$
 
-$$ R_n = \frac{f^{n+1}(\xi)}{(n+1)!} (x - a)^{n+1}$$
+$$R_n = \frac{f^{n+1}(\xi)}{(n+1)!} (x - a)^{n+1}$$
 
 ## Ejemplo 5.
 La serie de Taylor para $f(x) = e^{x}$ en $a = 0$ se obtiene calculando las derivadas de 
