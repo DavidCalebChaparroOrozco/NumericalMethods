@@ -148,7 +148,9 @@ donde $h = x_{i+1} - x_i$. Es decir: $$ y_{i+1} = y_i + \Theta h.$$
 ![PVI – Método de Euler](PVI%20%E2%80%93%20M%C3%A9todo%20de%20Euler_2.PNG)
 
 ## Para tener en cuenta.
-- En la _EDO_ ${y}' = f(x,y ) $ sólo se tiene una variable independiente y una variable dependiente 
+- En la _EDO_ 
+${y}' = f(x,y )$ 
+sólo se tiene una variable independiente y una variable dependiente 
 por lo que este tipo de ecuaciones, generalmente, modelan fenómenos transitorios (aquellos que cambian 
 en el tiempo).
 - De acuerdo con la anterior observación, la EDO se acostumbra a escribir como:
@@ -158,4 +160,4 @@ $$\frac{dy} {dt} = f(t,y) \text{ donde } y= y(t)$$
 se plantea en la forma:
 $$\left\{\begin{matrix} \frac{dy}{dx} = f(x,y)
 \\ y(x_0) = y_0
-\end{matrix}\right. $$
+\end{matrix}\right$$
