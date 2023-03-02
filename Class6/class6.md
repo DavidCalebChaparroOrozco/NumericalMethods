@@ -85,7 +85,7 @@ posición de un punto sobre la cuerda y $u = u(x)$ representa el desplazamiento 
 posición _x_. La _EDO_ y las dos condiciones forman un _Problema con Valores en la Frontera (PVF)_.
 En este caso,
 
-$$ L(\cdot ) = \frac{d^{2}}{dx^{2}}(\cdot ), F(x) = -\frac{g}{c}. $$
+$$L(\cdot ) = \frac{d^{2}}{dx^{2}}(\cdot ), F(x) = -\frac{g}{c}. $$
 
 Una _Ecuación Diferencial Parcial (EDP)_ es una ecuación diferencial en la que la función desconocida
 depende de más de una variable independiente.
@@ -152,7 +152,7 @@ donde $h = x_{i+1} - x_i$. Es decir: $$ y_{i+1} = y_i + \Theta h.$$
 por lo que este tipo de ecuaciones, generalmente, modelan fenómenos transitorios (aquellos que cambian 
 en el tiempo).
 - De acuerdo con la anterior observación, la EDO se acostumbra a escribir como:
-$$ \frac{dy} {dt} = f(t,y) \text{ donde } y= y(t)$$
+$$\frac{dy} {dt} = f(t,y) \text{ donde } y= y(t)$$
 
 - La _EDO_,  en situaciones prácticas, se acompaña de una condición inicial dando lugar a un _PVI_ que 
 se plantea en la forma:
