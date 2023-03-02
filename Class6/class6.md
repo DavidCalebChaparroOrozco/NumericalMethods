@@ -115,7 +115,7 @@ Ecuación de Sine - Gordon:
 $$u_{tt} - u_{xx} + sin(u) = 0$$
 
 Ecuación de superficie minimal:
-$$ \left ( 1 + u_{y}^{2} \right ) u_{xx} - 2u_xu_yu_{xy} + \left ( 1 + u_{x}^{2} \right ) u_{yy} = 0 $$
+$$\left ( 1 + u_{y}^{2} \right ) u_{xx} - 2u_xu_yu_{xy} + \left ( 1 + u_{x}^{2} \right ) u_{yy} = 0 $$
 
 $t: \text {tiempo}$
  
@@ -134,7 +134,7 @@ $i = 0, 1, 2, ..., n$.
 
 # PVI - Método de Euler
 La _EDO_ 
-$$ \frac{dy}{dx} = f(x,y) $$
+$$\frac{dy}{dx} = f(x,y) $$
 
 expresa que la pendiente en cada punto $(x,y)$ de una gráfica está dada por la función $f(x,y )$. 
 Si se conoce la pendiente en $(x_1, y_1)$ entonces es posible aproximar el valor de $y_{i+1}$ a 
@@ -156,6 +156,6 @@ $$ \frac{dy} {dt} = f(t,y) \text{ donde } y= y(t)$$
 
 - La _EDO_,  en situaciones prácticas, se acompaña de una condición inicial dando lugar a un _PVI_ que 
 se plantea en la forma:
-$$ \left\{\begin{matrix} \frac{dy}{dx} = f(x,y)
+$$\left\{\begin{matrix} \frac{dy}{dx} = f(x,y)
 \\ y(x_0) = y_0
 \end{matrix}\right. $$
