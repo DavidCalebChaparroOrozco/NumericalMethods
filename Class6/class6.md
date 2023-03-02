@@ -60,7 +60,7 @@ No lineal, homogenea.
 Una _ED_ se denomina _Ecuación Diferencial Ordinaria (EDO)_ si la función desconocida depende de 
 una sola variable independiente.
 
-$$ m \frac{d^{2}u}{dt^{2}} + c \frac{du}{dt} + ku = F(t)$$
+$$m \frac{d^{2}u}{dt^{2}} + c \frac{du}{dt} + ku = F(t)$$
 
 La _ED_ modela un sistema de masa-resorte amortiguado. Aqui $u = u(t)$ representa desplazamiento de
 la masa desde la posición de equilibrio como una función del tiempo,
@@ -68,7 +68,7 @@ _t_. $m>0$, $c\geq 0$ y $k>0$ son constantes que representan la masa, la constan
 $F(t)$ es una fuerza externa aplicada al sistema. Es de gran interés y utilidad resolver esta _ED_ 
 considerando la pareja de condiciones iniciales.
 
-$$ u(0) = u_0 \text {y} \frac{du}{dt}(0) = {u}'_0,$$
+$$u(0) = u_0 \text {y} \frac{du}{dt}(0) = {u}'_0,$$
 
 que hacen referencia a la posición y velocidad iniciales de la masa. La _ED_ y las dos condiciones 
 forman un _Problema con Valores Iniciales (PVI)_
@@ -91,16 +91,16 @@ Una _Ecuación Diferencial Parcial (EDP)_ es una ecuación diferencial en la que
 depende de más de una variable independiente.
 
 Ecuación del calor:
-$$ u_{t} - \alpha ^{2} u_{xx} = F( x, t)$$
+$$u_{t} - \alpha ^{2} u_{xx} = F( x, t)$$
 
 Ecuación de la onda:
-$$ u_{tt} - c ^{2} u_{xx} = F( x, t)$$
+$$u_{tt} - c ^{2} u_{xx} = F( x, t)$$
 
 Ecuación de Laplace:
-$$ u_{xx} + u_{yy} = 0$$
+$$u_{xx} + u_{yy} = 0$$
 
 Ecuación de Poisson:
-$$ u_{xx} + u_{yy} = F( x, t)$$
+$$u_{xx} + u_{yy} = F( x, t)$$
 
 Ecuación de transporte:
 $$u_{t} + cu_x = 0$$
