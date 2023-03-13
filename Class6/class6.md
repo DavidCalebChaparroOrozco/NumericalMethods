@@ -158,7 +158,4 @@ $$\frac{dy} {dt} = f(t,y) \text{ donde } y= y(t)$$
 
 - La _EDO_,  en situaciones prácticas, se acompaña de una condición inicial dando lugar a un _PVI_ que 
 se plantea en la forma:
-$ \left\{\begin{matrix}
-\frac{dy}{dx} = f(x,y) & \\ 
-y(x_{0} = y_{0}) & 
-\end{matrix}\right. $
+$ \left\{\begin{matrix}\frac{dy}{dx} = f(x,y) & \\ y(x_{0} = y_{0}) & \end{matrix}\right. $
