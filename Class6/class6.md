@@ -127,7 +127,7 @@ dependiente que corresponden a un conjunto de valores $x_{0}$,$x_{1}$,$x_{2}$\do
 independiente y tales que cada pareja $(X_{1}, Y_{1})$, para $i=0, 1 ,2, \dots, n$, hacen que la 
 diferencia sea muy cercana a cero.
 
-La solución numérica de una EDP es un conjunto de valores {$y_i$} , $i=0, 1, 2, \dots, n$ tales que 
+La solución numérica de una EDP es un conjunto de valores $y_i$ , $i=0, 1, 2, \dots, n$ tales que 
 el valor $y_i$ junto a la _k_–ésima tupla $(x_{0}^{i},x_{1}^{i},x_{2}^{i}, \dots x_{n}^{i})$ de
 variables independientes hacen que la diferencia $L(u) - F$ sea muy cercana a cero para 
 $i = 0, 1, 2, \dots, n$.
