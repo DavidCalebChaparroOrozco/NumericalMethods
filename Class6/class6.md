@@ -122,9 +122,9 @@ $t: \text {tiempo}$
 $x, y: \text {variables especiales}$
 
 # PVI
-La solución numérica de una EDO es un conjunto de valores $y_0$,$y_1$,$y_2$...$y_n$ de la variable 
-dependiente que corresponden a un conjunto de valores $x_0$,$x_1$,$x_2$...$x_n$ de la variable 
-independiente y tales que cada pareja $(X_1, Y_1), para $i=0, 1 ,2, ..., n$, hacen que la 
+La solución numérica de una EDO es un conjunto de valores $y_{0}$,$y_{1}$,$y_{2}$...$y_{n}$ de la variable 
+dependiente que corresponden a un conjunto de valores $x_{0}$,$x_{1}$,$x_{2}$...$x_n$ de la variable 
+independiente y tales que cada pareja $(X_{1}, Y_{1})$, para $i=0, 1 ,2, ..., n$, hacen que la 
 diferencia sea muy cercana a cero.
 
 La solución numérica de una EDP es un conjunto de valores {$y_i$}, $i=0, 1, 2, ..., n$ tales que 
