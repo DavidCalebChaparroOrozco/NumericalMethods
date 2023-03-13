@@ -29,10 +29,10 @@ El metodo mas sencillo de almacenamiento se utiliza con numeros enteros y se den
 ${0:+}$ y ${1:-}$
 
 - Ejm1 : Si se cuenta con un computador de 16 bits, el numero $$173$$ se almacena en memoria con la cadena.
-$$ 1 0 0 0 0 0 0 1 0 1 0 1 1 0 1$$
+$$1 0 0 0 0 0 0 1 0 1 0 1 1 0 1$$
 
 - Ejm2: Determine el rango de enteros de base 10 que puede ser representado en un computador de 16 bits.
-$$ 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1$$
+$$0 1 1 1 1 1 1 1 1 1 1 1 1 1 1$$
 
 ## Para tener en cuenta.
     1. El cero tiene una doble representación por lo que ocupa dos cadenas de digitos binarios. Una de ellas puede utilizarse para almacenar un numero entero mas.
