@@ -123,7 +123,7 @@ $x, y: \text {variables especiales}$
 
 # PVI
 La solución numérica de una EDO es un conjunto de valores $y_{0}$ , $y_{1}$ , $y_{2}$ $\dots$ $y_{n}$ de la variable 
-dependiente que corresponden a un conjunto de valores $x_{0}$ , $x_{1}$ , $x_{2}$ , $\dots$ $x_n$ de la variable 
+dependiente que corresponden a un conjunto de valores $x_{0}$ , $x_{1}$ , $x_{2}$ , $\dots$ $x_{n}$ de la variable 
 independiente y tales que cada pareja $(X_{1}, Y_{1})$, para $i=0, 1 ,2, \dots, n$, hacen que la 
 diferencia sea muy cercana a cero.
 
