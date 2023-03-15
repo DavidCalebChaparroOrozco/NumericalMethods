@@ -128,7 +128,7 @@ código computacional que le permita graficar la función dada y los polinomios 
 - $f(x) = ln(x), a=1$
 - $f(x) = 3x{^5} - 2x{^4} + 15x{^3} + 13x{^2} - 12x - 5 , a=2$
 
-    - ![Ejercicio4](Ejercicio4.png)
+![Ejercicio4](Ejercicio4.png)
 
 ## Ejercicio 5:
 Utilice los polinomio de Taylor de grados 0, 1, 2, 3, 4 y 5 hallados en los literales a) y b) del 
