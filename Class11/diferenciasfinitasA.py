@@ -19,5 +19,5 @@ print(f'Matriz resuelta: {MatrizA_solv}')
 
 v_x = np.array([[2],[4],[6],[8]])
 
-plt.plot(v_x, MatrizA_solv,'--', label='Metodo de la frontera')
+plt.plot(v_x, MatrizA_solv,'--', label='Metodo de la frontera',marker="o")
 plt.show()
