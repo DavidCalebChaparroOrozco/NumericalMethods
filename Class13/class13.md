@@ -52,6 +52,6 @@ $\overrightarrow{x_1}, \dots , \overrightarrow{x_n}$ , llamados _test points_.
 
 $$u(\overrightarrow{x}) = \sum_{j=1}^{n} \alpha_j \Psi (r_j)$$
 
-con $r_j = \left \| \overrightarrow{x} - \overrightarrow{\varepsilon}_j \right \|_{L2}$
+$\text{con } r_j = \left \| \overrightarrow{x} - \overrightarrow{\varepsilon}_j \right \|_{L2}$
 
 ![Alt text](Interpolacion%20con%20RBF.jpeg)
