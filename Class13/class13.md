@@ -75,7 +75,7 @@ $$\text{con } r_j = \left \| \overrightarrow{x} - \overrightarrow{\varepsilon}_j
         $$\text{Seleccionamos } c = 1$$
 
         $$u(\overrightarrow{x}) = \sum_{j=1}^{n} \alpha_j \Psi (r_j) = \sum_{j=1}^{n} \alpha_j\sqrt{(x-\zeta_j)^{2}+C^{2}}$$
-![Alt Text](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cbg_white%20%5Cfn_jvn%20%5Chuge%20%5Cleft.%5Cbegin%7Bmatrix%7D%20%5CPsi%20%28r_1%29%20%3D%20%5Csqrt%7B%28x-%5Czeta_1%29%5E%7B2%7D&plus;C%5E%7B2%7D%7D%20%3D%20%5Csqrt%7B%28x-1%29%5E%7B2%7D&plus;1%7D%20%5C%5C%20%5CPsi%20%28r_2%29%20%3D%20%5Csqrt%7B%28x-%5Czeta_2%29%5E%7B2%7D&plus;C%5E%7B2%7D%7D%20%3D%20%5Csqrt%7B%28x-6%29%5E%7B2%7D&plus;1%7D%20%5Cend%7Bmatrix%7D%5Cright%5C%7D%20u%28x%29)
+![Alt text](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cbg_white%20%5Cfn_jvn%20%5Chuge%20%5Cleft.%5Cbegin%7Bmatrix%7D%20%5CPsi%20%28r_1%29%20%3D%20%5Csqrt%7B%28x-%5Czeta_1%29%5E%7B2%7D&plus;C%5E%7B2%7D%7D%20%3D%20%5Csqrt%7B%28x-1%29%5E%7B2%7D&plus;1%7D%20%5C%5C%20%5CPsi%20%28r_2%29%20%3D%20%5Csqrt%7B%28x-%5Czeta_2%29%5E%7B2%7D&plus;C%5E%7B2%7D%7D%20%3D%20%5Csqrt%7B%28x-6%29%5E%7B2%7D&plus;1%7D%20%5Cend%7Bmatrix%7D%5Cright%5C%7D%20u%28x%29)
 
 La siguiente expresión es importante:
 
