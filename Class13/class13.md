@@ -75,52 +75,28 @@ $$\text{con } r_j = \left \| \overrightarrow{x} - \overrightarrow{\varepsilon}_j
         $$\text{Seleccionamos } c = 1$$
 
         $$u(\overrightarrow{x}) = \sum_{j=1}^{n} \alpha_j \Psi (r_j) = \sum_{j=1}^{n} \alpha_j\sqrt{(x-\zeta_j)^{2}+C^{2}}$$
+![Alt Text](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cbg_white%20%5Cfn_jvn%20%5Chuge%20%5Cleft.%5Cbegin%7Bmatrix%7D%20%5CPsi%20%28r_1%29%20%3D%20%5Csqrt%7B%28x-%5Czeta_1%29%5E%7B2%7D&plus;C%5E%7B2%7D%7D%20%3D%20%5Csqrt%7B%28x-1%29%5E%7B2%7D&plus;1%7D%20%5C%5C%20%5CPsi%20%28r_2%29%20%3D%20%5Csqrt%7B%28x-%5Czeta_2%29%5E%7B2%7D&plus;C%5E%7B2%7D%7D%20%3D%20%5Csqrt%7B%28x-6%29%5E%7B2%7D&plus;1%7D%20%5Cend%7Bmatrix%7D%5Cright%5C%7D%20u%28x%29)
 
-        $$
-        \left.\begin{matrix} 
-        \Psi (r_1) = \sqrt{(x-\zeta_1)^{2}+C^{2}} = \sqrt{(x-1)^{2}+1}
-        \\ 
-        \Psi (r_2) = \sqrt{(x-\zeta_2)^{2}+C^{2}} = \sqrt{(x-6)^{2}+1}
-        \end{matrix}\right\} u(x)$$
+La siguiente expresión es importante:
 
-    La siguiente expresión es importante:
+$$u(x) = \sum_{j=1}^{2} \alpha_1 \Psi(r_1) + \alpha_2 \Psi(r_1) = \alpha_1\sqrt{(x-1)^{2}+1} + \alpha_2\sqrt{(x-6)^{2}+1}$$
 
-    $$u(x) = \sum_{j=1}^{2} \alpha_1 \Psi(r_1) + \alpha_2 \Psi(r_1) = \alpha_1\sqrt{(x-1)^{2}+1} + \alpha_2\sqrt{(x-6)^{2}+1}$$
+La grafica de $u$ debe pasar por los puntos (1,0) y (6,1.791759)
+1. $u(x_1) = y_1:$ 
+$$u(1)= \alpha_1\sqrt{(1-1)^{2}+1} + \alpha_2\sqrt{(1-6)^{2}+1}=0$$
+$$\alpha_1 + 5.099 \alpha_2 = 0$$
 
-    La grafica de $u$ debe pasar por los puntos (1,0) y (6,1.791759)
-    1. $u(x_1) = y_1:$ 
-    $$u(1)= \alpha_1\sqrt{(1-1)^{2}+1} + \alpha_2\sqrt{(1-6)^{2}+1}=0$$
-    $$\alpha_1 + 5.099 \alpha_2 = 0$$
+2. $u(x_2) = y_2:$ 
+$$u(6)= \alpha_1\sqrt{(6-1)^{2}+1} + \alpha_2\sqrt{(6-6)^{2}+1}=1.791759$$
+$$ 5.099 \alpha_1 + \alpha_2 = 1.791759$$
 
-    2. $u(x_2) = y_2:$ 
-    $$u(6)= \alpha_1\sqrt{(6-1)^{2}+1} + \alpha_2\sqrt{(6-6)^{2}+1}=1.791759$$
-    $$ 5.099 \alpha_1 + \alpha_2 = 1.791759$$
+De (1) y (2):
 
-    De (1) y (2):
+![Alt text](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cbg_white%20%5Cfn_jvn%20%5CLARGE%20%5Cbegin%7Bbmatrix%7D%201%20%26%205.099%20%5C%5C%205.099%20%26%201%20%5Cend%7Bbmatrix%7D%20%5Cbegin%7Bbmatrix%7D%20%5Calpha_1%20%5C%5C%20%5Calpha_2%20%5Cend%7Bbmatrix%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%200%20%5C%5C%201.791759%20%5Cend%7Bbmatrix%7D%20%5CRightarrow%20%5Cbegin%7Bmatrix%7D%20%5Calpha_1%20%3D%200.3654%20%5C%5C%20%5Calpha_2%20%3D%20-0.0716%20%5Cend%7Bmatrix%7D)
 
-    $$\begin{bmatrix}
-        1 & 5.099 \\ 
-        5.099 & 1
-        \end{bmatrix}
-        \begin{bmatrix}
-        \alpha_1  \\ 
-        \alpha_2
-        \end{bmatrix}
-        =
-        \begin{bmatrix}
-        0  \\ 
-        1.791759
-        \end{bmatrix}
-        \Rightarrow 
+Reemplazando estos valores en la expresión
+$$u(x) = 0.3654 \sqrt{(x-1)^{2}+1} - 0.0716\sqrt{(x-6)^{2}+1}$$
 
-        \begin{matrix}
-        \alpha_1 = 0.3654 \\ 
-        \alpha_2 = -0.0716
-    \end{matrix}$$
-
-    Reemplazando estos valores en la expresión
-    $$u(x) = 0.3654 \sqrt{(x-1)^{2}+1} - 0.0716\sqrt{(x-6)^{2}+1}$$
-
-    $$u(2) = 0.3654 \sqrt{(2-1)^{2}+1} - 0.0716\sqrt{(2-6)^{2}+1} \Rightarrow u(2) = 0.2213$$
+$$u(2) = 0.3654 \sqrt{(2-1)^{2}+1} - 0.0716\sqrt{(2-6)^{2}+1} \Rightarrow u(2) = 0.2213$$
 
 - Ejm 2:
