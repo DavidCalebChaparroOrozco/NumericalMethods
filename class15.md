@@ -1,1 +1,0 @@
-# Interpolación Trazadores (Splines)
