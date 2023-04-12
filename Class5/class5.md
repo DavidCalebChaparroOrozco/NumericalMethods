@@ -124,9 +124,17 @@ $$\left | \frac{e^{\xi}}{(n + 1)!} x^{n+1} \right | \leq \frac{e^{s}}{(n+1!)} s^
 Halle la serie de Taylor para la función y el valor de $a$ que se indica en cada caso. Escriba un 
 código computacional que le permita graficar la función dada y los polinomios de Taylor de grado
 0, 1, 2, 3, 4 y 5.
+
+
+[Codigo 4](Exercise4.py)
+
+
 - $f(x) = cos(x), a=0$
+    [Codigo ejercicio 4a](Exercise4a.py)
 - $f(x) = ln(x), a=1$
+    [Codigo ejercicio 4b](Exercise4b.py)
 - $f(x) = 3x{^5} - 2x{^4} + 15x{^3} + 13x{^2} - 12x - 5 , a=2$
+    [Codigo ejercicio 4c](Exercise4c.py)
 
 ![Ejercicio4](Ejercicio4.png)
 
