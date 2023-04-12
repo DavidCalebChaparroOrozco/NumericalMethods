@@ -28,11 +28,11 @@ El metodo mas sencillo de almacenamiento se utiliza con numeros enteros y se den
 
 ${0:+}$ y ${1:-}$
 
-- Ejm1 : Si se cuenta con un computador de 16 bits, el numero $$173$$ se almacena en memoria con la cadena.
-$$1 0 0 0 0 0 0 1 0 1 0 1 1 0 1$$
+- Ejm1 : Si se cuenta con un computador de 16 bits, el numero $-173$ se almacena en memoria con la cadena.
+`1 0 0 0 0 0 0 0 1 0 1 0 1 1 0 1`
 
 - Ejm2: Determine el rango de enteros de base 10 que puede ser representado en un computador de 16 bits.
-$$0 1 1 1 1 1 1 1 1 1 1 1 1 1 1$$
+`0 1 1 1 1 1 1 1 1 1 1 1 1 1 1`
 
 ## Para tener en cuenta.
     1. El cero tiene una doble representación por lo que ocupa dos cadenas de digitos binarios. Una de ellas puede utilizarse para almacenar un numero entero mas.
@@ -44,15 +44,23 @@ $$(x - y)(x^{n-1} + x^{n-2}y +  \cdot\cdot\cdot + xy^{n-2} + y^{n-1})= x^{n} - y
 Los numeros reales se almacenan en la maquina utilizando la _Representation de punto flotante_
 $$mb^{-e}$$
 
-_m_: Mantisa normalizada (parte entera igual a cero y primer cifra decimal diferente de cero)
-_b_: Base del sistema numerico
-_e_: Exponente.
-
-- Ejercicio 2: Escribir los numeros 156.78 y 1/34 en su representación punto flotante.
+$$ \text { m: Mantisa normalizada (parte entera igual a cero y primer cifra decimal diferente de cero)}$$
+$$ \text {b: Base del sistema numerico}$$
+$$ \text {e: Exponente.}$$
 
 ## Para tener en cuenta.
 Como consecuencia de la normalización, $m < 1$ (limite superior) y $m >= 0.1$ (limite inferior). Es decir:
 $$\frac{1}{b} \leq m < 1$$
 
-### Ejemplo 2: Conjunto hipotetico de numeros con punto flotante
-Determine el menor y el mayor numeros positivos que puede almacenar una maquina que utiliza representación de punto flotante en cadenas de 7 digitos binarios. El primer bit se emplea para el signo del numero, las sgts tres para el signo y la magnitud del exponente, y los ultimos tres para la magnitud de la mantisa.
+* Ejercicio 2: Escribir los numeros 156.78 y 1/34 en su representación punto flotante.
+    - $156.78$
+        - $\text {Signo: 0 (positivo)}$
+        - $\text {Exponente: 10000010 (130 en decimal) sumado a un sesgo de 127, resultando en 257 en binario (100000001)}$
+        - $\text {Mantisa: 1.00111110011100110101110 (los primeros 23 bits después del punto decimal)}$
+        - $\text {Representación en punto flotante: }$`0 10000001 00111110011100110101110`
+
+    - $1/34$
+        - $\text {Signo: 0 (positivo)}$
+        - $\text {Exponente: -5 sumado a un sesgo de 127, resultando en 122 en binario (01111010)}$
+        - $\text {Mantisa: 1.01010101010101010101011 (los primeros 23 bits después del punto decimal)}$
+        - $\text {Representación en punto flotante: }$`0 01111010 01010101010101010101011`
