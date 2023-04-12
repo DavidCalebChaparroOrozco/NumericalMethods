@@ -43,7 +43,7 @@ Lineal, homogenea.
 
 $m \frac{d^{2}u}{dx^{2}} + k sin(u) = sin(wt)$
 ---
-$m \frac{d^{2}}{dx^{2}} + k sin() = sin(wt)$
+$m \frac{d^{2}}{dx^{2}} + k sin()$
 
 No lineal, no homogenea.
 
