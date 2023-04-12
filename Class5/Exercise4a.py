@@ -9,7 +9,7 @@ def cos_taylor(x, n):
     return result
 
 # Define the range of values of x
-x = np.linspace(-4, 4, 1000)
+x = np.linspace(-np.pi, 1 , 10)
 
 # Adjust figure size
 plt.figure(figsize=(8, 6))
