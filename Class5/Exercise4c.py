@@ -18,7 +18,7 @@ def taylor(x, n):
     return taylor_sum
 
 # Generate data
-x = np.linspace(-10, 10, 100)
+x = np.linspace(-10, 0.01, 10)
 y = f(x)
 
 # Adjust the size and style of the figure
