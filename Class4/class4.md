@@ -9,7 +9,7 @@ complejos que, por lo regular, carecen de solución analitica o conocida, en su 
 - Errores no relacionados con el metodo: equivocaciones, errores de formulación o del modelo, y la incertidumbre en la obtención de los datos.
 
 ## Errores de redondeo:
-Los numeros son almacenados en la memoria dle computador utilizando una cadena de digitos binarios o bits que es finita. Esto genera una dificultad evidente con el almacenamiento de numeros como: $\pi$, $e$ ,$\sqrt{2}$
+Los numeros son almacenados en la memoria dle computador utilizando una cadena de digitos binarios o bits que es finita. Esto genera una dificultad evidente con el almacenamiento de numeros como: $\pi$, $e$ , $\sqrt{2}$
 
 
 - Para reflexionar:
