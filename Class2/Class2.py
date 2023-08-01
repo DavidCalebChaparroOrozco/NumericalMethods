@@ -7,7 +7,8 @@ def sign_of_a(a):
         sign = 'zero'
     return sign
 
+print("=".center(50,'='))
 a = int(input('Enter a number: '))
 print('a is: '+ sign_of_a(a))
 
-print("-".center(50,'-'))
+print("=".center(50,'='))
