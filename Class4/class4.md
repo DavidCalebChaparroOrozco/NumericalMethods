@@ -32,7 +32,7 @@ ${0:+}$ y ${1:-}$
 `1 0 0 0 0 0 0 0 1 0 1 0 1 1 0 1`
 
 - Ejm2: Determine el rango de enteros de base 10 que puede ser representado en un computador de 16 bits.
-`0 1 1 1 1 1 1 1 1 1 1 1 1 1 1`
+`0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1`
 
 ## Para tener en cuenta.
     1. El cero tiene una doble representación por lo que ocupa dos cadenas de digitos binarios. Una de ellas puede utilizarse para almacenar un numero entero mas.
